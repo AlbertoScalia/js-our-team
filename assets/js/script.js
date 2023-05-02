@@ -31,3 +31,15 @@ const teamCompleto = [
         foto: 'barbara-ramos-graphic-designer.jpg'
     }
 ]
+
+console.log(teamCompleto);
+
+arrayDaIterare(teamCompleto);
+
+//Creo la funzione per iterare dentro l'array al cui interno inserisco un ciclo for
+function arrayDaIterare(teamCompleto) {
+    for (let i = 0; i < teamCompleto.length; i++) {
+        //Assegno ad una variabile ogni oggetto dell'array
+        const membroTeam = teamCompleto[i];
+    }
+}
